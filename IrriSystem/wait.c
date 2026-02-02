@@ -1,5 +1,5 @@
 // Wait functions
-
+//Aisosa Okunbor and Caleb Smith
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -36,4 +36,5 @@ void waitMicrosecond(uint32_t us)
     __asm("WMS_DONE0:");                        // ---
                                                 // 40 clocks/us + error
 }
+
 
