@@ -1,5 +1,5 @@
 // ICMP Library
-
+//Aisosa Okunbor & Caleb Smith
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -42,3 +42,4 @@ void sendPingRequest(etherHeader *ether, uint8_t ipAdd[]);
 void sendPingResponse(etherHeader *ether);
 
 #endif
+
