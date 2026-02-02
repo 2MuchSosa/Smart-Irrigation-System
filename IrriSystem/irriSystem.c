@@ -1,4 +1,4 @@
-//Aisosa Okunbor and Caleb Smith Team 12
+//Aisosa Okunbor and Caleb Smith 
 //-----------------------------------------------------------------------------
 // Hardware Target
 //-----------------------------------------------------------------------------
@@ -668,3 +668,4 @@ void Timer4A_Handler(void)
 {
     tickIsr();
 }
+
