@@ -1,5 +1,5 @@
-// TCP Library (includes framework only)
-//Aisosa Okunbor and Caleb Smith Team 12
+// TCP Library
+//Aisosa Okunbor and Caleb Smith
 
 
 //-----------------------------------------------------------------------------
@@ -474,3 +474,4 @@ void sendTcpMessage(etherHeader *ether, socket *s, uint16_t flags, uint8_t data[
     if (dataSize > 0)
     s->sequenceNumber += dataSize; // update sequence number
 }
+
