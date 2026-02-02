@@ -1,5 +1,5 @@
 // EEPROM functions
-
+//Aisosa Okunbor & Caleb SMith
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -41,3 +41,4 @@ uint32_t readEeprom(uint16_t add)
     EEPROM_EEOFFSET_R = add & 0xF;
     return EEPROM_EERDWR_R;
 }
+
