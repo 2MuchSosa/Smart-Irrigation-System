@@ -1,3 +1,5 @@
+//Aisosa Okunbor and Caleb Smith
+
 #include "utility.h"
 #include <ctype.h>
 #include <stdio.h>
@@ -14,3 +16,4 @@ uint8_t asciiToUint8(const char str[])
         sscanf(str, "%hhu", &data);
     return data;
 }
+
