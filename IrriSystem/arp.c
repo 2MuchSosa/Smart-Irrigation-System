@@ -1,5 +1,5 @@
 // ARP Library
-
+//Aisosa Okunbor & Caleb SMith
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -123,3 +123,4 @@ void sendArpRequest(etherHeader *ether, uint8_t ipFrom[], uint8_t ipTo[])
     // send packet
     putEtherPacket(ether, sizeof(etherHeader) + sizeof(arpPacket));
 }
+
