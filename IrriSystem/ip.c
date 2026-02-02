@@ -1,5 +1,5 @@
 // IP Library
-
+//Aisosa Okunbor & Caleb Smith
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -213,3 +213,4 @@ void calcIpChecksum(ipHeader* ip)
     sumIpWords(ip->sourceIp, (ip->size * 4) - 12, &sum);
     ip->headerChecksum = getIpChecksum(sum);
 }
+
