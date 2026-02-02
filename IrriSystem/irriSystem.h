@@ -1,4 +1,4 @@
-//Aisosa Okunbor and Caleb Smith Team 12
+//Aisosa Okunbor and Caleb Smith 
 #ifndef IRRISYSTEM_H_
 #define IRRISYSTEM_H_
 
@@ -27,3 +27,4 @@ void irrigationTick();
 void processCommand(char *topic, char *data);
 void Timer4A_Handler(void);
 #endif // IRRISYSTEM_H_
+
