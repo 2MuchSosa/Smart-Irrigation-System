@@ -1,5 +1,5 @@
-// TCP Library (includes framework only)
-//Aisosa Okunbor and Caleb Smith Team 12
+// TCP Library
+//Aisosa Okunbor and Caleb Smith 
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -90,4 +90,5 @@ void sendTcpResponse(etherHeader *ether, socket* s, uint16_t flags);
 void sendTcpMessage(etherHeader *ether, socket* s, uint16_t flags, uint8_t data[], uint16_t dataSize);
 
 #endif
+
 
