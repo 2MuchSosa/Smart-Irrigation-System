@@ -1,5 +1,5 @@
 // Clock Library
-
+//Aisosa Okunbor & Caleb SMith
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -26,4 +26,5 @@
 void initSystemClockTo40Mhz(void);
 
 #endif
+
 
