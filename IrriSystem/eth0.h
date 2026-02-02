@@ -1,5 +1,5 @@
 // ETH0 Library
-
+//Aisosa Okunbor & Caleb Smith
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -92,3 +92,4 @@ uint32_t htonl(uint32_t value);
 #define HW_ADD_LENGTH 6
 
 #endif
+
