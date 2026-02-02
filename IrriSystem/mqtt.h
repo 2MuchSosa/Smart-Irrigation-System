@@ -1,6 +1,5 @@
-// MQTT Library (includes framework only)
-//Aisosa Okunbor and Caleb Smith Team 12
-
+// MQTT Library 
+//Aisosa Okunbor and Caleb Smith 
 //-----------------------------------------------------------------------------
 // Hardware Target
 //-----------------------------------------------------------------------------
@@ -34,4 +33,5 @@ void subscribeMqtt(char strTopic[]);
 void unsubscribeMqtt(char strTopic[]);
 void handleMqttPublish(char *topic, char *payload);
 #endif
+
 
