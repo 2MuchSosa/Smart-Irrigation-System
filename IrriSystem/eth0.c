@@ -1,5 +1,5 @@
 // ETH0 Library
-//Aisosa Okunbor and Caleb Smith Team 12
+//Aisosa Okunbor and Caleb Smith
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -518,3 +518,4 @@ void getEtherMacAddress(uint8_t mac[HW_ADD_LENGTH])
     for (i = 0; i < HW_ADD_LENGTH; i++)
         mac[i] = hwAddress[i];
 }
+
