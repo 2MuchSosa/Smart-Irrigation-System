@@ -1,5 +1,5 @@
-// Ethernet Framework for Projects 1 and 2
-//Aisosa Okunbor and Caleb Smith Team 12
+// Ethernet Framework
+//Aisosa Okunbor and Caleb Smith
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -570,4 +570,5 @@ int main(void)
         }
     }
 }
+
 
