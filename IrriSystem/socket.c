@@ -1,5 +1,5 @@
 // Socket Library
-
+//Aisosa Okunbor & Caleb Smith
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -114,3 +114,4 @@ void getSocketInfoFromTcpPacket(etherHeader *ether, socket *s)
     s->remotePort = ntohs(tcp->sourcePort);
     s->localPort = ntohs(tcp->destPort);
 }
+
