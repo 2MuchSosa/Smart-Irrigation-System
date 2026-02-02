@@ -1,5 +1,5 @@
 // ICMP Library
-// Jason Losh
+//Aisosa Okunbor & Caleb Smith
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -80,4 +80,5 @@ void sendPingResponse(etherHeader *ether)
     // send packet
     putEtherPacket(ether, sizeof(etherHeader) + ntohs(ip->length));
 }
+
 
