@@ -1,5 +1,5 @@
 // Wait functions
-
+//Aisosa Okunbor and Caleb Smith
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -18,4 +18,5 @@
 void waitMicrosecond(uint32_t us);
 
 #endif
+
 
